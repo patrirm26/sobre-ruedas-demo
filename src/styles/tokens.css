@@ -1,0 +1,70 @@
+/* Rebrand SOBRE RUEDAS (fork de KORA, ver README — vertical white-label
+   de movilidad). Reemplaza el sistema "editorial cream" (beige + negro +
+   acento cobalto) por una paleta "asfalto + naranja vía": gris neutro
+   frío (asfalto/concreto) como base y un naranja de señalización vial
+   como único acento, para leer como movilidad/automotor sin perder el
+   carácter de confianza financiera (mismo patrón de un solo acento que
+   KORA). Todas las variables mantienen el mismo nombre que el sistema
+   base — así cualquier componente existente se retematiza sin tocarlo.
+   Modo oscuro es la misma paleta invertida sobre un "asfalto nocturno". */
+:root {
+  --bg: #f2f3f5;
+  --surface: #ffffff;
+  --surface2: #f2f3f5;
+  --surface3: #e6e8ec;
+  --border: #e2e4e9;
+  --border2: #d2d6dd;
+
+  --ink: #16181d;
+  --muted: #5c6270;
+  --faint: #8b91a0;
+
+  --accent: #ff5a1f;
+  --accent2: #ff5a1f;
+  --accent-dim: #c3450f;
+
+  --green: #1fa971;
+  --amber: #e6a019;
+  --red: #d64550;
+  --blue: #ff5a1f;
+  --gold: #ff5a1f;
+
+  /* Fijas, NO cambian con el tema — para las pocas superficies
+     deliberadamente oscuras del sistema (.tier-card, .login-left) que
+     deben verse igual en modo claro y en modo oscuro. */
+  --ink-fixed: #16181d;
+  --cream-fixed: #f2f3f5;
+
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 26px;
+
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+}
+
+/* Modo oscuro — "asfalto nocturno", mismo naranja de acento. */
+:root[data-theme='dark'] {
+  --bg: #101216;
+  --surface: #191c22;
+  --surface2: #101216;
+  --surface3: #21252d;
+  --border: #2b303a;
+  --border2: #383e4a;
+
+  --ink: #f2f3f5;
+  --muted: #a3aab8;
+  --faint: #6f7583;
+
+  --accent: #ff7a45;
+  --accent2: #ff7a45;
+  --accent-dim: #c3450f;
+
+  --green: #35c98a;
+  --amber: #f0b23e;
+  --red: #ec5c68;
+  --blue: #ff7a45;
+  --gold: #ff7a45;
+}

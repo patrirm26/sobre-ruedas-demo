@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#f2f3f5" />
+  <rect x="0" y="230" width="480" height="90" fill="#e6e8ec" />
+  <g fill="none" stroke="#5c6270" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M70 220 L95 160 Q110 140 140 140 L300 140 Q330 140 345 165 L380 220" fill="#8b91a0" fill-opacity="0.15" />
+    <path d="M60 220 L60 195 Q60 178 80 178 L110 178 L140 145 Q150 135 165 135 L285 135 Q302 135 312 148 L345 178 L400 178 Q420 178 420 198 L420 220" />
+    <path d="M60 220 L420 220" />
+    <path d="M110 178 L345 178" />
+    <path d="M165 178 L165 138" />
+  </g>
+  <circle cx="130" cy="220" r="28" fill="#16181d" />
+  <circle cx="130" cy="220" r="11" fill="#f2f3f5" />
+  <circle cx="350" cy="220" r="28" fill="#16181d" />
+  <circle cx="350" cy="220" r="11" fill="#f2f3f5" />
+  <rect x="32" y="150" width="72" height="24" rx="6" fill="#5c6270" />
+  <text x="68" y="167" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">USADO</text>
+</svg>
