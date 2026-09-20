@@ -144,12 +144,37 @@ const SERVICES: ServiceCard[] = [
     view: 'marketplace',
     icon: '🛍',
     bg: 'rgba(214,69,80,.09)',
-    title: 'Tienda',
+    title: 'Marketplace',
     description:
-      'Compra y vende con protección total: tu dinero queda resguardado hasta que confirmes la entrega. Gana puntos en cada compra y construye tu reputación.',
+      'Vehículos nuevos, usados (C2C y C2B), motos, bicicletas y repuestos. Los usados van protegidos con Escrow: tu dinero se libera solo cuando confirmas el traspaso.',
     tags: [
-      { label: 'COMPRA PROTEGIDA', cls: 'p-red' },
-      { label: '+0,5% PUNTOS', cls: 'p-gold' },
+      { label: 'ESCROW EN USADOS', cls: 'p-red' },
+      { label: '+PUNTOS POR COMPRA', cls: 'p-gold' },
+    ],
+  },
+  {
+    view: 'alquiler',
+    icon: '🔑',
+    bg: 'color-mix(in srgb, var(--accent) 12%, transparent)',
+    title: 'Alquiler',
+    description:
+      'Rent-a-car de corto plazo, renting corporativo para tu flota y alquiler entre particulares (P2P). Reserva por fecha y paga desde tu saldo.',
+    tags: [
+      { label: 'CORTO PLAZO', cls: 'p-blue' },
+      { label: 'RENTING CORPORATIVO', cls: 'p-blue' },
+      { label: 'P2P', cls: 'p-blue' },
+    ],
+  },
+  {
+    view: 'seguros',
+    icon: '🛡',
+    bg: 'rgba(31,169,113,.1)',
+    title: 'Seguros',
+    description:
+      'Emite tu RCV obligatorio en un clic, contrata cobertura ampliada con daños propios y robo, o activa un microseguro pay-per-use solo los días que usas el carro.',
+    tags: [
+      { label: 'RCV EN 1 CLIC', cls: 'p-green' },
+      { label: 'PAY-PER-USE', cls: 'p-green' },
     ],
   },
 ];

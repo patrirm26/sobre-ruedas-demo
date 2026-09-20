@@ -18,7 +18,7 @@ import type { LoyaltyChannel } from '../../domain/loyalty';
  * (Consorcio es un módulo stub; Market varía por producto, no por canal). */
 const EARN_CARDS: { icon: string; bg: string; title: string; desc: string; channel?: LoyaltyChannel; staticPct?: string }[] = [
   { icon: '🏢', bg: 'color-mix(in srgb, var(--accent) 12%, transparent)', title: 'Cuota de Consorcio puntual', desc: 'Paga tu condominio, club o gremio antes del vencimiento.', staticPct: '1,0%' },
-  { icon: '🛍', bg: 'rgba(214,69,80,.09)', title: 'Compra en KORA Market', desc: 'Al confirmar la recepción de tu compra protegida.', staticPct: '0,5%' },
+  { icon: '🛍', bg: 'rgba(214,69,80,.09)', title: 'Compra en el Marketplace', desc: 'Al confirmar la recepción de tu compra protegida.', staticPct: '0,5%' },
   { icon: '▣', bg: 'rgba(31,169,113,.1)', title: 'Pago QR en comercios aliados', desc: 'En comercios del programa de cashback KORA.', channel: 'qr' },
   { icon: '🌎', bg: 'color-mix(in srgb, var(--accent) 10%, transparent)', title: 'Remesa recibida', desc: 'Si recibes una remesa del exterior en tu cuenta KORA.', channel: 'remesa' },
   { icon: '◐', bg: 'rgba(230,160,25,.1)', title: 'Cuota de crédito en fecha', desc: 'Pagar puntual te premia y además sube tu KORA Score.', channel: 'cuotas' },
@@ -122,7 +122,7 @@ export function TokensView() {
             <button className="btn ghost" style={{ flex: 1, padding: 11, fontSize: 12.5 }} onClick={() => setShowTransfer(true)}>
               ⇄ Transferir puntos
             </button>
-            <button className="btn ghost" style={{ flex: 1, padding: 11, fontSize: 12.5 }} onClick={() => comingSoon('Pagar con puntos', 'Elige "Pagar con puntos" en el checkout de la Tienda.')}>
+            <button className="btn ghost" style={{ flex: 1, padding: 11, fontSize: 12.5 }} onClick={() => comingSoon('Pagar con puntos', 'Elige "Pagar con puntos" en el checkout del Marketplace.')}>
               🛍 Pagar con puntos
             </button>
             <button className="btn ghost" style={{ flex: 1, padding: 11, fontSize: 12.5 }} onClick={() => setShowLedger(true)}>

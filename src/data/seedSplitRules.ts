@@ -4,9 +4,9 @@ import type { SplitRule } from '../domain/splitPayout';
 export const SEED_SPLIT_RULES: SplitRule[] = [
   {
     id: 'rule-marketplace-standard',
-    name: 'Reparto estándar Tienda',
+    name: 'Reparto estándar Marketplace',
     appliesTo: 'marketplace',
-    description: 'Se aplica a toda compra pagada con saldo o puntos en la Tienda.',
+    description: 'Se aplica a toda compra pagada con saldo o puntos en el Marketplace.',
     beneficiaries: [
       { role: 'merchant', label: 'Comercio', pct: 92 },
       { role: 'platform', label: 'KORA (plataforma)', pct: 5 },

@@ -231,7 +231,7 @@ export function CopilotView() {
             <button
               key={s}
               disabled={sending}
-              onClick={() => (s === 'Ver Tienda' ? comingSoon('Ir a la Tienda desde el Copilot') : send(s))}
+              onClick={() => (s === 'Ver Marketplace' ? comingSoon('Ir al Marketplace desde el Copilot') : send(s))}
             >
               {s}
             </button>

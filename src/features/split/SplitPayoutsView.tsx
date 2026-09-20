@@ -49,7 +49,7 @@ function SplitRuleCard({ rule, onChanged }: { rule: SplitRule; onChanged: () => 
           <h3 style={{ fontSize: 15 }}>{rule.name}</h3>
           <p style={{ fontSize: 12, color: 'var(--muted)', marginTop: 3 }}>{rule.description}</p>
         </div>
-        <span className="pill p-blue">Tienda</span>
+        <span className="pill p-blue">Marketplace</span>
       </div>
 
       {beneficiaries.map((b, i) => (
@@ -165,7 +165,7 @@ export function SplitPayoutsView() {
         </div>
       ) : splitPayouts.length === 0 ? (
         <div className="card" style={{ padding: 24, textAlign: 'center', color: 'var(--muted)', fontSize: 13 }}>
-          Todavía no hay repartos registrados. Compra algo en la Tienda con saldo o puntos para ver el primero.
+          Todavía no hay repartos registrados. Compra algo en el Marketplace con saldo o puntos para ver el primero.
         </div>
       ) : (
         <div className="card">

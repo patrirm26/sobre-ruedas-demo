@@ -274,7 +274,7 @@ async function interpret(userMessage: string, context: CopilotContext, pendingAc
 
   // Recomendación de Marketplace (lectura, ligera a propósito).
   if (RECOMMEND_RE.test(norm)) {
-    return { text: 'Puedo llevarte a la Tienda a ver lo mejor valorado y con cashback en puntos.', uiHints: ['Ver Tienda'] };
+    return { text: 'Puedo llevarte al Marketplace a ver lo mejor valorado y con cashback en puntos.', uiHints: ['Ver Marketplace'] };
   }
 
   return {

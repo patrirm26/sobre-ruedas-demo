@@ -24,7 +24,7 @@ const PRIMARY_ACTIONS: { view: ViewId; label: string; icon: typeof IconPay }[] =
   { view: 'pagar', label: 'Enviar', icon: IconPay },
   { view: 'cobrar', label: 'Recibir', icon: IconCollect },
   { view: 'cuotas', label: 'Cuotas', icon: IconInstallment },
-  { view: 'marketplace', label: 'Tienda', icon: IconMarket },
+  { view: 'marketplace', label: 'Marketplace', icon: IconMarket },
 ];
 
 type DisplayCurrency = 'USD' | 'VES' | 'KRT' | 'CUPO';

@@ -63,8 +63,8 @@ export function CuotasView() {
       </div>
       {plans.length === 0 ? (
         <div className="card" style={{ padding: 24, textAlign: 'center', color: 'var(--muted)', fontSize: 13 }}>
-          No tienes ningún plan de cuotas activo ahora mismo. KORA Cuotas se ofrece directamente al comprar en la
-          Tienda, al pagar, o al diferir un pago al Estado.
+          No tienes ningún plan de cuotas activo ahora mismo. KORA Cuotas se ofrece directamente al comprar en el
+          Marketplace, al pagar, o al diferir un pago al Estado.
         </div>
       ) : (
         plans.map((plan) => {
