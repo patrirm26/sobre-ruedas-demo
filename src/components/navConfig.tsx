@@ -16,6 +16,8 @@ import {
   IconMarket,
   IconFund,
   IconFactoring,
+  IconKey,
+  IconShield,
 } from './icons';
 
 export interface NavItem {
@@ -87,6 +89,8 @@ export const NAV_SECTIONS: NavSection[] = [
     title: 'CRECER',
     items: [
       { id: 'marketplace', label: 'Marketplace', icon: IconMarket },
+      { id: 'alquiler', label: 'Alquiler', icon: IconKey },
+      { id: 'seguros', label: 'Seguros', icon: IconShield },
       { id: 'fondos', label: 'Fondos', icon: IconFund },
     ],
   },

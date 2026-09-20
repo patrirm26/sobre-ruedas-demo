@@ -21,4 +21,6 @@ export const VIEW_META: Record<ViewId, { title: string; subtitle: string }> = {
   copilot: { title: 'KORA Copilot', subtitle: 'Tu asistente financiero con inteligencia artificial' },
   perfil: { title: 'Mi perfil', subtitle: 'Tus datos, tu verificación y tu seguridad' },
   factoring: { title: 'Factoring', subtitle: 'Adelanta el cobro de tus facturas' },
+  seguros: { title: 'Seguros', subtitle: 'RCV en un clic, cobertura ampliada y microseguro pay-per-use' },
+  alquiler: { title: 'Alquiler', subtitle: 'Corto plazo, renting corporativo y P2P' },
 };

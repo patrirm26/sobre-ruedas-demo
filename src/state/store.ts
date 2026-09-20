@@ -23,6 +23,8 @@ import { createChatSlice, type ChatSlice } from './slices/chatSlice';
 import { createInsuranceSlice, type InsuranceSlice } from './slices/insuranceSlice';
 import { createAddressSlice, type AddressSlice } from './slices/addressSlice';
 import { createCondoSlice, type CondoSlice } from './slices/condoSlice';
+import { createVehicleInsuranceSlice, type VehicleInsuranceSlice } from './slices/vehicleInsuranceSlice';
+import { createRentalSlice, type RentalSlice } from './slices/rentalSlice';
 
 export type StoreState = UserSlice &
   TokenSlice &
@@ -46,7 +48,9 @@ export type StoreState = UserSlice &
   ChatSlice &
   InsuranceSlice &
   AddressSlice &
-  CondoSlice;
+  CondoSlice &
+  VehicleInsuranceSlice &
+  RentalSlice;
 
 const STORE_VERSION = 1;
 
@@ -79,6 +83,8 @@ export const useKoraStore = create<StoreState>()(
         ...createInsuranceSlice(...a),
         ...createAddressSlice(...a),
         ...createCondoSlice(...a),
+        ...createVehicleInsuranceSlice(...a),
+        ...createRentalSlice(...a),
       }),
       {
         name: 'kora-sandbox-store',

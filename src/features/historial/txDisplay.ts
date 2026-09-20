@@ -14,6 +14,8 @@ const CATEGORY_DISPLAY: Record<TransactionCategory, { icon: string; bg: string }
   fondo: { icon: '📈', bg: 'rgba(34,197,94,.12)' },
   tarjeta: { icon: '💳', bg: 'rgba(99,102,241,.12)' },
   convert: { icon: '⇄', bg: 'color-mix(in srgb, var(--accent) 10%, transparent)' },
+  seguro: { icon: '🛡', bg: 'rgba(31,169,113,.1)' },
+  alquiler: { icon: '🔑', bg: 'color-mix(in srgb, var(--accent) 12%, transparent)' },
 };
 
 export function getTxDisplay(tx: Transaction) {

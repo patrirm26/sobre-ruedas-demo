@@ -20,7 +20,9 @@ export type ViewId =
   | 'fondos'
   | 'tarjeta'
   | 'perfil'
-  | 'factoring';
+  | 'factoring'
+  | 'seguros'
+  | 'alquiler';
 
 export type ThemeMode = 'dark' | 'light';
 

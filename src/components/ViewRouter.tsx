@@ -17,6 +17,8 @@ import { FondosInversionView } from '../features/fondos/FondosInversionView';
 import { TarjetaView } from '../features/tarjeta/TarjetaView';
 import { PerfilView } from '../features/perfil/PerfilView';
 import { FactoringConsumerView } from '../features/factoring/FactoringConsumerView';
+import { SegurosView } from '../features/seguros/SegurosView';
+import { AlquilerView } from '../features/alquiler/AlquilerView';
 import type { ViewId } from '../state/slices/uiSlice';
 
 const VIEW_COMPONENTS: Record<ViewId, () => React.ReactElement | null> = {
@@ -38,6 +40,8 @@ const VIEW_COMPONENTS: Record<ViewId, () => React.ReactElement | null> = {
   tarjeta: TarjetaView,
   perfil: PerfilView,
   factoring: FactoringConsumerView,
+  seguros: SegurosView,
+  alquiler: AlquilerView,
 };
 
 export function ViewRouter() {

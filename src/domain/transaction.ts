@@ -10,7 +10,9 @@ export type TransactionCategory =
   | 'banco'
   | 'fondo'
   | 'tarjeta'
-  | 'convert';
+  | 'convert'
+  | 'seguro'
+  | 'alquiler';
 
 export type TransactionDirection = 'in' | 'out';
 export type TransactionCurrency = 'VES' | 'USD' | 'KRT';

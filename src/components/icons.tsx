@@ -300,6 +300,13 @@ export const IconEyeOff = (p: SVGProps<SVGSVGElement>) => (
   </Svg>
 );
 
+export const IconKey = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <circle cx="7" cy="15" r="4" />
+    <path d="M10 12l9-9M16 6l2.5 2.5M13 9l2 2" />
+  </Svg>
+);
+
 export const IconGauge = (p: SVGProps<SVGSVGElement>) => (
   <Svg {...p}>
     <path d="M3 13a9 9 0 0 1 18 0" />
